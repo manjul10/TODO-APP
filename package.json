@@ -4,6 +4,9 @@
   "description": "",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "scripts": {
     "start": "NODE_ENV=Production node server.js",
     "dev": "NODE_ENV=Development nodemon server.js"
